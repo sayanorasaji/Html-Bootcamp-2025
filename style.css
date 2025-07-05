@@ -1,0 +1,19 @@
+body{
+    background-color: beige;
+    border-style: dotted ;
+    border-color: red;
+    border-radius:7px;
+    margin-top:14px;
+    margin-left:14px;
+    padding:14px;
+}
+h1{
+    text-align: center;
+    color:darkred;
+    font-size: 45px;
+}
+h2{
+    text-align: center;
+    color:crimson;
+    font-size: 30px;
+}

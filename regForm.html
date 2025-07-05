@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Registration Form</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <h1>ABC School, Kochi</h1>
+        <h2>Online Registration for Sports Day</h2>
+        <!-- h1 and h2 is styled using inline CSS -->
+        <form action="action.html" method=""> 
+            <!--This will redirect you to a page after clicking 'submit' button-->
+            <!-- That page should be designed as a different html document -->
+            <label>Student Name:</label>
+            <input type="text">
+            <!-- This will tell the user to enter the name and that will be stored in the form of text -->
+            <br>
+            <!-- This will break the current line and goes to a new line -->
+            <label>Class:</label>
+            <input type="number">
+            <!-- The user can enter their class in numbers -->
+            <label>Division:</label>
+            <input type="text">
+            <!-- The user enters their division in text. 'Class' and 'Division' will be displayed in a single line-->
+            <br>
+            <label>Gender:</label>
+            <br>
+            <!-- 'radio' buttons are used when we want only one option to be selected -->
+            <input type="radio" name="gender" value="">
+            Male
+            <!-- The 'Male' word will be displayed after radio button -->
+            <input type="radio" name="gender" value="">
+             Female
+            <!-- This creates radio buttons named 'Male' and 'Female' -->
+             <!-- Either male or female can be selected since the 'name' is given as same -->
+            <br>
+            <label>Events that you are participating</label>
+            <br>
+            <!-- 'checkbox' is used when we want multiple options to be selected -->
+            <input type="checkbox" name=""> Football
+            <!-- This will create a checkboc named 'Football' -->
+            <br>
+            <input type="checkbox" name=""> Cricket
+            <br>
+            <input type="checkbox" name=""> Badminton
+            <br>
+            <input type="checkbox" name=""> Kabaddi
+            <br>
+            <input type="checkbox" name=""> Sack Drag Relay
+            <br>
+        </form>
+        <button>Submit</button>
+        <!-- This will create a 'Submit' button -->
+    </body>
+</html>
